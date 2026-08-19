@@ -4,10 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "webpack --config webpack.config.js",
-    "start": "webpack serve --config webpack.config.js",
-    "serve": "http-server dist"
-  },
+  "start": "webpack serve --config webpack.config.js",
+  "build": "webpack --config webpack.config.js"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -20,8 +19,5 @@
     "webpack": "^5.109.2",
     "webpack-cli": "^7.2.2",
     "webpack-dev-server": "^6.0.0"
-  },
-  "dependencies": {
-    "http-server": "^14.1.1"
   }
 }
