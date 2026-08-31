@@ -1,0 +1,20 @@
+{
+  "name": "@artipok/ajs",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/JustArtiPok/netology#readme",
+  "bugs": {
+    "url": "https://github.com/JustArtiPok/netology/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JustArtiPok/netology.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
