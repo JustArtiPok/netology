@@ -1,0 +1,33 @@
+{
+  "extract-special-attacks": "object",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  "start": "webpack serve",
+  "build": "webpack",
+  "test": "jest",
+  "lint": "eslint src/**/*.js test/**/*.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@babel/core": "^8.0.1",
+    "@babel/preset-env": "^8.0.2",
+    "@types/jest": "^30.0.0",
+    "babel-loader": "^10.1.1",
+    "eslint": "^8.57.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.32.0",
+    "jest": "^30.5.0",
+    "webpack": "^5.110.2",
+    "webpack-cli": "^7.2.3"
+  },
+  "jest": {
+  "testEnvironment": "node",
+  "collectCoverage": true,
+  "coverageDirectory": "coverage"
+}
+}
